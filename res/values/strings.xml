@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Signal Mapper</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="operator">Network Operator</string>
+    <string name="signal_strength">Signal Strength</string>
+    <string name="bit_error_rate">Bit Error Rate</string>
+    <string name="gps_coordinates">GPS Coordinates</string>
+    <string name="location">Location</string>
+
+</resources>
