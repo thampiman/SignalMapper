@@ -84,8 +84,8 @@ public class SignalStrengthMapper extends Activity implements LocationListener {
 		if (gsmSignalStrength == 99)
 			return "Not Detectable";
 		
-		int dbmStrength = 113;
-		dbmStrength = dbmStrength - (gsmSignalStrength * 2);
+		int dbmStrength = -113;
+		dbmStrength = dbmStrength + (gsmSignalStrength * 2);
 		String strength = Integer.toString(dbmStrength) + " dBm";
 		return strength;
 	}
